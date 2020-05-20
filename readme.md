@@ -10,7 +10,7 @@ npm install git+ssh://git@github.com:htmlacademy/configs.git --save-dev
 
 ## yaspeller
 
-Ищет опечатки в материалах. Для настройки необходимо в репозитории курса указать путь к файлу конфигурации.
+Ищет опечатки в материалах. Для настройки необходимо в своём репозитории указать путь к файлу конфигурации.
 
 ```json
 {
@@ -20,7 +20,7 @@ npm install git+ssh://git@github.com:htmlacademy/configs.git --save-dev
 }
 ```
 
-При необходимости можно завести [словарь](https://github.com/hcodes/yaspeller#--dictionary-file) конкретного курса и расширить общий:
+При необходимости можно расширить базовый [словарь](https://github.com/hcodes/yaspeller#--dictionary-file) в своём репе:
 
 ```json
 {
@@ -30,4 +30,4 @@ npm install git+ssh://git@github.com:htmlacademy/configs.git --save-dev
 }
 ```
 
-_`js-3-dictionary.json` — словарь конкретного курса в той же директории, где и `package.json`._
+_`js-3-dictionary.json` — дополняющий словарь из той же директории, где и `package.json`._
