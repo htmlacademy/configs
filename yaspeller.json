@@ -1,0 +1,14 @@
+{
+    "lang": "ru",
+    "fileExtensions": [
+        ".md"
+    ],
+    "checkYo": true,
+    "findRepeatWords": true,
+    "ignoreUrls": true,
+    "dictionary": [
+        "колбэк(а)?",
+        "пулреквест",
+        "форк"
+    ]    
+}
