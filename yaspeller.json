@@ -6,6 +6,7 @@
     "checkYo": true,
     "findRepeatWords": true,
     "ignoreUrls": true,
+    "ignoreDigits": true,
     "dictionary": [
         "колбэк(а)?",
         "пулреквест",
