@@ -1,6 +1,6 @@
 {
   "private": true,
-  "name": "configs",
+  "name": "@htmlacademy/configs",
   "version": "1.0.0",
   "repository": {
     "type": "git",
