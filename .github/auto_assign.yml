@@ -1,0 +1,14 @@
+addReviewers: true
+
+addAssignees: author
+
+reviewers:
+  - nikolai-shabalin
+  - a-seredkin
+  - tenthreee
+  - AntonovIgor
+  - sashasushko
+  - levallevchenko
+  - kam4atka
+
+numberOfReviewers: 7
