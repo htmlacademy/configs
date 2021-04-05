@@ -80,3 +80,19 @@ npm install -DE @htmlacademy/configs
 ```
 
 _`js-3-dictionary.json` — дополняющий словарь из той же директории, где и `package.json`._
+
+### markdownlint-cli
+
+CLI для линтера `Markdown`-файлов. Правит файлы в соответствии с конфигом `.markdownlint.yml`. Все правила линтера описаны в [документации markdownlint](https://github.com/DavidAnson/markdownlint/blob/main/doc/Rules.md#md048). При необходимости можно настраивать правила или отключать ненужные.
+
+Найдёт ошибки и выведет их в консоль:
+
+```bash
+markdownlint --config ./.markdownlint.yml <markdown-файл или директория с файлами>
+```
+
+Автоматически исправит найденные ошибки:
+
+```bash
+markdownlint --fix ./.markdownlint.yml <markdown-файл или директория с файлами>
+```
