@@ -87,12 +87,20 @@ CLI для линтера `Markdown`-файлов. Правит файлы в с
 
 Найдёт ошибки и выведет их в консоль:
 
-```bash
-markdownlint --config ./.markdownlint.yml <markdown-файл или директория с файлами>
+```json
+{
+    "scripts": {
+        "markdownlint": "markdownlint --config ./.markdownlint.yml ."
+    }
+}
 ```
 
 Автоматически исправит найденные ошибки:
 
-```bash
-markdownlint --fix ./.markdownlint.yml <markdown-файл или директория с файлами>
+```json
+{
+    "scripts": {
+        "markdownlint:fix": "markdownlint --fix ./.markdownlint.yml ."
+    }
+}
 ```
