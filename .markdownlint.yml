@@ -1,4 +1,4 @@
-dafault: true
+default: true
 MD002: false
 MD004: 
   style: dash
