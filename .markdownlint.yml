@@ -1,17 +1,19 @@
 default: true
 MD001: false
-MD002: false
+MD003: 
+  style: atx
 MD004: 
   style: dash
 MD006: false
 MD007: 
   indent: 2
-MD013: 
-  line_length: 1000
+MD013: false
 MD018: false
-MD024: false
-MD026: false
+MD026:
+  punctuation: ',;:'
 MD033: false
+MD035:
+  style: ---
 MD036: false
 MD041: false
 MD048: 
