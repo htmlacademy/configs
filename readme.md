@@ -90,7 +90,7 @@ CLI для линтера `Markdown`-файлов. Правит файлы в с
 ```json
 {
     "scripts": {
-        "markdownlint": "markdownlint --config ./.markdownlint.yml ."
+        "markdownlint": "markdownlint --config ./node_modules/@htmlacademy/configs/.markdownlint.yml ."
     }
 }
 ```
