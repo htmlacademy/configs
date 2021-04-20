@@ -6,7 +6,8 @@
     "url": "ssh://git@github.com:htmlacademy/configs.git"
   },
   "peerDependencies": {
-    "yaspeller": "7.x"
+    "yaspeller": "7.x",
+    "markdownlint": "0.x"
   },
   "publishConfig": {
     "registry": "https://npm.pkg.github.com/"
